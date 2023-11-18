@@ -16,7 +16,7 @@ public class JNScraper {
 
     public static void main(String[] args) {
         // Set the system properties for ChromeDriver
-        System.setProperty("webdriver.chrome.bin", "your path");
+  
         System.setProperty("webdriver.chrome.driver", "your path");
 
         // Create a JFrame for displaying extracted data
