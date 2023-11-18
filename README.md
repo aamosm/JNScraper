@@ -21,7 +21,7 @@ curl -O https://chromedriver.storage.googleapis.com/104.0.5258.89/chromedriver_w
 
 ### Download Chrome Version 104 Installer:
 
-- Download the Chrome version 104 installer from the official Chrome archive.
+- Download the Chrome version 104 installer from https://www.slimjet.com/chrome/google-chrome-old-version.php.
 - Uninstall any previous version of Chrome
 - After downloading, install Chrome 104 on your machine.
 
