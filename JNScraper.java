@@ -33,7 +33,7 @@ public class JNScraper {
             frame.setVisible(true);
 
             // Iterate over the range of input values
-            for (int inp = 1180; inp <= 3000; inp++) {
+            for (int inp = 0; inp <= 3000; inp++) {
                 try {
                     logger.log(Level.INFO, "Navigating to the page...");
                     driver.get("http://jns.edusprint.in/jns/Security");
