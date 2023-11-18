@@ -2,6 +2,16 @@
 
 
 
+
+## Usage
+
+I made JNScraper to brute log into multiple accounts with the help of a present pattern and amend the results to an output.txt file.
+
+It uses Selenium to scrape the required data from the refreshed page.
+
+
+
+
 ### Download ChromeDriver Version 104:
 
 - Open a terminal or command prompt.
@@ -34,13 +44,3 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update
 - Open the JNScraper.java file in a text editor.
 - Modify the paths in the System.setProperty lines for webdriver.chrome.bin and webdriver.chrome.driver to match the locations on your device.
 - Update the path in the writeToFile method for the output file.
-
-
-
-
-## Usage
-
-
-I made JNScraper to brute log into multiple accounts with the help of a present pattern and amend the results to an output.txt file.
-
-It uses Selenium to scrape the required data from the refreshed page.
