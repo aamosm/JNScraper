@@ -50,6 +50,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update
 
 ## You will need the following 
 
-- Selenium JAR: This includes the core Selenium libraries.
-- WebDriver JAR: This includes the WebDriver implementation.
+- Selenium JAR: This includes the core Selenium libraries. Given in https://www.selenium.dev/downloads/
+- WebDriver JAR: This includes the WebDriver implementation. Given in https://github.com/aamosm/JNScraper/tree/main#download-chromedriver-version-104
 - or the dependencies depending on your project.
