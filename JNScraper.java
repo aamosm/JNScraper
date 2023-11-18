@@ -16,8 +16,8 @@ public class JNScraper {
 
     public static void main(String[] args) {
         // Set the system properties for ChromeDriver
-        System.setProperty("webdriver.chrome.bin", "E:\\dudududuudumaxverstappen\\GoogleChromePortable64\\GoogleChromePortable.exe");
-        System.setProperty("webdriver.chrome.driver", "E:\\dudududuudumaxverstappen\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.bin", "your path");
+        System.setProperty("webdriver.chrome.driver", "your path");
 
         // Create a JFrame for displaying extracted data
         JFrame frame = new JFrame("Extracted Data");
@@ -44,8 +44,8 @@ public class JNScraper {
                     WebElement loginButton = driver.findElement(By.xpath("//*[@id='frmMCampusLogin']/div[5]/button"));
 
                     logger.log(Level.INFO, "Filling in the form...");
-                    textField.sendKeys("JNSG" + inp);
-                    passwordField.sendKeys("JNSG" + inp);
+                    textField.sendKeys("" + inp);
+                    passwordField.sendKeys("" + inp);
 
                     logger.log(Level.INFO, "Clicking the login button...");
                     loginButton.click();
@@ -74,7 +74,7 @@ public class JNScraper {
                     displayInGUI(frame, profileName, classDiv, rollNo, grNo, uid);
 
                     // Write extracted data to a file
-                    writeToFile("C:\\Users\\Dell\\Desktop\\output.txt", profileName, classDiv, rollNo, grNo, uid);
+                    writeToFile("your path output.txt", profileName, classDiv, rollNo, grNo, uid);
 
                     // Logout and wait
                     logout(driver);
