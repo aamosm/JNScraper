@@ -44,3 +44,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update
 - Open the JNScraper.java file in a text editor.
 - Modify the paths in the System.setProperty lines for webdriver.chrome.bin and webdriver.chrome.driver to match the locations on your device.
 - Update the path in the writeToFile method for the output file.
+
+
+
+
+## You will need the following 
+
+- Selenium JAR: This includes the core Selenium libraries.
+- WebDriver JAR: This includes the WebDriver implementation.
+- or the dependencies depending on your project.
