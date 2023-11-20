@@ -53,3 +53,25 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update
 - Selenium JAR: This includes the core Selenium libraries. Given in https://www.selenium.dev/downloads/
 - WebDriver JAR: This includes the WebDriver implementation. Given in https://github.com/aamosm/JNScraper/tree/main#download-chromedriver-version-104
 - or the dependencies depending on your project.
+
+
+
+
+## Remove restrictions on Chrome update
+
+- If you want to allow Chrome to update again after previously preventing it, you can follow these steps:
+
+- Open the Run dialog by pressing Win + R.
+- Type regedit and press Enter to open the Registry Editor.
+- Navigate to the following key: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update.
+- If you had previously created the UpdateDefault DWORD value with a value of 0, you can either delete this DWORD value or set its value to 1.
+
+### To delete the DWORD value:
+
+- Right-click on UpdateDefault.
+- Select "Delete."
+- To set the value to 1:
+
+- Double-click on UpdateDefault.
+- Change the "Value data" to 1.
+- Click "OK."
