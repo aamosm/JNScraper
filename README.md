@@ -28,7 +28,7 @@ curl -O https://chromedriver.storage.googleapis.com/104.0.5258.89/chromedriver_w
 
 
 ### Stop Chrome from Updating (Windows):
-
+- If you intend to use this only once you might not need to update, just do not close Chrome as it will end up upgrading its version when you reopen it.
 - Open the Run dialog by pressing Win + R.
 - Type regedit and press Enter to open the Registry Editor.
 - Navigate to the following key:
